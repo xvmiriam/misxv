@@ -1,0 +1,63 @@
+#countdown {
+    background-image: url("../img/countdown.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#countdown h1 {
+    font-family: "TheSeasons";
+    font-size: 40px;
+    background: -webkit-linear-gradient(117deg, #f1cfa3, #c97f11);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#countdown p {
+    margin: 10px;
+    font-family: "Miama";
+    font-size: 40px;
+    height: 45px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(117deg, #f1cfa3, #c97f11);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#countdown-labels {
+    font-family: "Miama";
+    font-size: 22px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(117deg, #e0bd8f, #c97f11);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#countdown h2{
+    font-family: "TheSeasons";
+    font-size: 30px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(117deg, #e0bd8f, #c97f11);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#countdown h3{
+    font-family: "TheSeasons";
+    font-size: 26px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(117deg, #e0bd8f, #c97f11);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#countdown-date {
+    padding-top: 50px;
+    border: 1px ;
+}

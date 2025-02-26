@@ -1,0 +1,40 @@
+#front-page {
+    height: 100vh; /*Abarca el 100% de la pantalla*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra los elementos verticalmente */
+  
+    /*Background estilo gradiante*/
+    background: linear-gradient(140deg,#ffeca8,#faa392,rgb(140, 194, 212),pink,#ffe0b6,#d8be5c);
+    background-size: 400% 300%;
+    animation: BgGradient 12s ease infinite;
+}
+
+#front-page img {
+    width: 100px;
+    height: 100px;
+}
+
+#front-page .misXV { /* TEXT: MIS XV AÑOS */
+    font-family: "TheSeasons";
+    font-size: 30px;
+    text-align: center; 
+    margin-bottom: 35px;
+}
+
+#front-page .name { /* TEXT: Miriam */
+    font-family: "Parisiene";
+    font-size: 69px;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+
+/*Animación del banner*/
+@keyframes BgGradient {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+  }
+  

@@ -1,0 +1,84 @@
+#attendance {
+    background-image: url("../img/pink_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+#attendance h1 {
+    font-family: "TheSeasons";
+    margin-bottom: 30px;
+    color: rgb(122, 83, 166);
+    font-size: 35px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c425d3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "TheSeasons";
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+#attendance p {
+    font-family: "TheSeasons";
+    margin-bottom: 30px;
+    color: rgb(79, 57, 105);
+    font-size: 15px;
+}
+
+.custom-shape-divider-top-1739419471 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1739419471 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 137px;
+}
+
+.custom-shape-divider-top-1739419471 .shape-fill {
+    fill: #D43691;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #1DA851;
+}

@@ -1,0 +1,21 @@
+#parents {
+    background-image: url("../img/parents_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45vh; /* Ajusta la altura al 100% de la altura de la ventana */
+}
+
+
+#parents h1 {
+    font-family: "TheSeasons";
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(162, 117, 49);
+}
+
+#parents p {
+    font-family: "TheSeasons";
+    margin-bottom: 10px;
+    color: rgb(162, 117, 49);
+}

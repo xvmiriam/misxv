@@ -1,0 +1,29 @@
+#outfit {
+    background-image: url("../img/outfit_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+#outfit h1 {
+    font-family: "TheSeasons";
+    font-size: 30px;
+    color: rgb(123, 112, 112);
+    text-align: center;
+    margin: 25px;
+}
+
+#outfit p {
+    font-family: "TheSeasons";
+    font-size: 20px;
+    color: rgb(104, 91, 91);
+    text-align: center;
+    margin: 25px;
+}
+
+#outfit img {
+    width: 100px;
+}
+
+

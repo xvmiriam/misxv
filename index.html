@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="shortcut icon" type="image/png" href="img/xv_icon.png"/>
+
+    <title>Mis XV Años</title>
+</head>
+<body>
+
+    <main>
+        <section id="front-page">
+            <p class="misXV">MIS XV AÑOS</p>
+
+            <img src="img/tiara_icon.svg">
+            <p class="name">Miriam</p>
+        </section>
+
+        <section id="parents">
+            <h1>MIS PAPÁS</h1>
+            <p class="wow animate__animated animate__fadeInLeft">MA. Guadalupe Cruz Jimenez</p>
+            <p class="wow animate__animated animate__fadeInRight">Juan Salvador Flores Rodriguez</p>
+        </section>
+
+        <section id="photo">
+            <img src="img/marco.png">
+        </section>
+
+        <section id="invitation" onshow="writer()">
+            <p id="invitation-writer"><!--Quiero invitarte por ser tan especial en mi vida, 
+                a celebrar conmigo y junto a mi familia mis quince años de vida.
+                
+                THIS IS WRITED LETTER BY LETTER WITH CSS-->
+            </p>
+        </section>
+
+        <section id="countdown">
+            <h1>El gran día es en</h1>
+            <p id="countdown-text"></p>
+            <div id="countdown-labels">
+                <span>Días - </span>
+                <span>Horas - </span>
+                <span>Minutos -  </span>
+                <span>Segundos</span>
+            </div>
+
+            <div class="wow animate__animated animate__fadeInDown" id="countdown-date">
+                <h2>29 de Marzo de 2025<h2>
+                <h3>17:30 horas</h3>
+            </div>
+        </section>
+
+        <section id="outfit">
+            <h1>Codigo de vestimenta</h1>
+            <img src="img/vestimenta_icon.png">
+            <p>Formal</p>
+        </section>
+
+        <section id="schedule">
+            <h1>Horario y lugares</h1>
+            <ul>
+                <li class="wow animate__animated animate__fadeInUp" style="--accent-color:#d0b53a">
+                    <div class="date">17:30 horas</div>
+                    <div class="title"><img id="img_church" src="img/church.png">CEREMONIA</div>
+                    <div class="descr">Parroquia de San Luis Rey.</div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.968575487442!2d-100.96072511818966!3d22.13555883604049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa215d2fa7013%3A0x9039204b7a194f10!2sParroquia%20de%20San%20Luis%20Rey!5e0!3m2!1ses-419!2smx!4v1739158044115!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="descr"><br> Laguna de Términos 785.<br>San Luis Rey, <br>78350 San Luis Potosí, S.L.P.</div>
+                </li>
+                <li class="wow animate__animated animate__fadeInUp" style="--accent-color:#c63ad0">
+                    <div class="date">19:30 horas</div>
+                    <div class="title"><img id="img_event" src="img/confetti.png">EVENTO</div>
+                    <div class="descr">Buonarroti Eventos</div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.411889125508!2d-101.0316642!3d22.186447899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842a9efc9d53b441%3A0x2ff456606366a1d7!2sBuonarroti%20Eventos!5e0!3m2!1ses-419!2smx!4v1739160978373!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="descr"><br> Anillo Perif. 170. <br> Arboledas de Jacarandas.<br> 78130 San Luis Potosí, S.L.P.</div>
+                </li>
+                <li class="wow animate__animated animate__fadeInUp" style="--accent-color:#E24A68">
+                    <div class="date">21:00 horas</div>
+                    <div class="title"><img id="img_music" src="img/music.png">BAILE</div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="song">
+            <h1>Escucha mi cancion favorita</h1>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3yzrYuX1vuiuoEJGEzp61r?utm_source=generator" width="75%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        
+        </section>
+
+        <section id="attendance">
+            <div style="position: relative;" class="custom-shape-divider-top-1739419471">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <h1>Confirma tu asistencia</h1>
+            
+            <p>Para validar tu asistencia, responde el formulario y confirma vía Whatsapp</p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdz9hJIH76HU9HzdZThQgPwVlNfqS_nsh13JUl-qSTR4jaWaQ/viewform?embedded=true" width="auto" height="700" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+            
+            <a href="https://wa.me/4446546091?text=Hola,%20quiero%20confirmar%20mi%20asistencia%20a%20los%20XV%20años%20de%20Miriam." class="button">
+                <img width="60px" src="img/whatsapp_icon.png" alt="WhatsApp Icon" class="button-icon"> Confirmar en Whatsapp
+            </a>
+
+        </section>
+          
+    </main>
+
+    <script src="js/writer.js"></script>
+    <script src="js/countdown.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+</html>

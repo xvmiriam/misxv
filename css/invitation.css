@@ -1,0 +1,18 @@
+#invitation {
+    background-image: url("../img/invitation-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajusta la altura al 100% de la altura de la ventana */
+}
+
+
+  #invitation p {
+    font-size: 35px;
+    color: rgb(149, 116, 17);
+    margin: 10px;
+    margin-top: 60px;
+    font-family: "TheSeasons";
+  }
+  
+

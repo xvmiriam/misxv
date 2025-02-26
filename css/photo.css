@@ -1,0 +1,15 @@
+#photo {
+    height: 70vh;
+    background-image: url("../img/miriam_photo.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#photo img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
