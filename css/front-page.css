@@ -6,7 +6,7 @@
     justify-content: center; /* Centra los elementos verticalmente */
   
     /*Background estilo gradiante*/
-    background: linear-gradient(140deg,#ffeca8,#faa392,rgb(140, 194, 212),pink,#ffe0b6,#d8be5c);
+    background: linear-gradient(140deg,#ffeca8be,#faa392,#eec3b0,#ecc8ac,#ddb290,#cca686,#ffe0b6,#ecc09d,#f1e9e2,#e9e5e3);
     background-size: 400% 300%;
     animation: BgGradient 12s ease infinite;
 }
@@ -15,6 +15,11 @@
     width: 100px;
     height: 100px;
 }
+
+.filter-brown {
+    filter: invert(27%) sepia(5%) saturate(2894%) hue-rotate(319deg) brightness(93%) contrast(82%);
+}
+
 
 #front-page .misXV { /* TEXT: MIS XV AÑOS */
     font-family: "TheSeasons";
